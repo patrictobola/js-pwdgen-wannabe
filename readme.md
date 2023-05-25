@@ -10,3 +10,10 @@
   - 4.  Modifico la variante con le somme in modo da aggiungerci `21` alla fine. (personalmente ritengo sia una stringa e non un numero in questo caso, considerato il fatto che è una psw e non ha bisogno di operazioni algebriche)
 - 5. Inserisco quest'ultima variabile nell'elemento precedentemente selezionato nel DOM
 - 6. FINE
+
+### Bonus
+
+- Basic sign in page done with bootstrap.
+- The generated password instantly fill the password input
+
+I know, i know, if i first wrote in italian i should continue write in italian, it was just for fun, forgive me :)

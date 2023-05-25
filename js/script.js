@@ -4,7 +4,7 @@ console.log('JS OK')
 // +++++++++++++++++++++++
 
 // Seleziono dal DOM l'elemento dove voglio inserire il mio risultato
-const pswPlaceholder = document.getElementById('userPsw');
+const pswPlaceholder = document.getElementById('inputPassword');
 console.log(pswPlaceholder)
 
 // Chiedo all'utente il suo nome e lo dichiaro in una variabile
@@ -24,4 +24,4 @@ const userPsw = userName + userSurname + userColor + `21`;
 console.log(userPsw);
 
 // Inserisco la password nell'elemento selezionato precedentemente nel DOM
-pswPlaceholder.innerText = userPsw;
+pswPlaceholder.value = userPsw.toLowerCase();
